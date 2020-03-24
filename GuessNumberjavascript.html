@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>JavaScript</title>
+	</head>
+	<body>
+		<select id="select">
+			<option>0</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+
+		</select>
+		
+		<button id="guessButton">Guess!</button>
+		
+		<div id="scriptReply"></div>
+
+			<script>
+				function doAGuess(correctAnswer) {
+					
+					var guess = Math.random();
+						guess = guess * 6;
+						guess = Math.floor(guess);
+
+					if (guess == correctAnswer) {
+						return(true);
+					}
+					else { 
+						return(false);
+					}
+				}
+				document.getElementById("guessButton").onclick = function() {
+					
+					var guessCount = 1
+					var myNumber = document.getElementById("select").value
+					var gotIt = false
+
+					while (gotIt == false) {
+						if (doAGuess(myNumber) == true) {
+							document.getElementById("scriptReply").innerHTML = "<p>" + "Got it! It took me " + guessCount + " times!" + "</p>";
+							gotIt = true;
+						}
+						else {
+							guessCount++;
+						}
+					}
+				}
+				
+			</script>
+	</body>
+</html>
