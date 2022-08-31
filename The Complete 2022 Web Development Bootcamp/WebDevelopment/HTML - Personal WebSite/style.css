@@ -1,0 +1,10 @@
+body{
+    background-color: azure;
+}
+
+hr{
+    border-style: dotted none none;
+    border-color: rgb(210, 237, 241);
+    border-width: 6px;
+    width: 5%;
+}
