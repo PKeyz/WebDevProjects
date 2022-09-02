@@ -1,0 +1,21 @@
+body{
+    background-color: azure;
+}
+h1{
+    color: #66BFBF;
+}
+h2{
+    color: #66BFBF;
+}
+h3{
+    color: #66BFBF;
+}
+hr{
+    border-style: dotted none none;
+    border-color: rgb(210, 237, 241);
+    border-width: 6px;
+    width: 5%;
+}
+a:hover{
+    text-decoration-color: red;
+}
