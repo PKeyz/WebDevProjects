@@ -6,25 +6,34 @@ h1{
 }
 
 div.top-container{
-    margin: 0px;
-    background-color: #22577E;
-    border: solid 10px;
-    width: 200px;
-    height: 200px;
+    background-color: #95D1CC;
 }
 
-div.middle-container{
-    margin-left: 220px;
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    border: solid 15px;
-}
-
-div.bottom-container{
-    margin-left: 450px;
+div.blue{
+    display: inline-block;
     background-color: blue;
-    height: 200px;
-    width: 200px;
-    border: solid 5px;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 604px;
+    left: 100px;
+}
+div.yellow{
+    display: inline-block;
+    background-color: yellow;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+div.red{
+    display: inline-block;
+    background-color: red;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 704px;
+    left: 200px;
 }
