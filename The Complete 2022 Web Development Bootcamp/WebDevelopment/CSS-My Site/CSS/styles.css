@@ -3,31 +3,41 @@ body{
     font-family: 'Merriweather', serif;
 }
 
+h1{
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    position: relative;
+    top: 00px;
+    left: 815px;
+}
+
+h2{
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    bottom:330px;
+    left:830px;
+    margin: 10px;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 10px;
+    position: relative;
+    top: 25%;
+    left: 47%;
+}
+
 div.top-container{
     margin: 0px;
     padding: 0px;
     border: 0px;
     background-color:#c8ede6;
-}
-
-h1{
-    display: inline-block;
-    font-family: 'Dancing Script', cursive;
-    margin: 0;
-    position: relative;
-    top: 25%;
-    left: 43%;
-}
-
-h2{
-    display: inline-block;
-    font-family: 'Lora', serif;
-}
-
-h3{
-    font-family: 'Lora', serif;
-    margin-top: 30px;
-    text-align: center;
 }
 
 img.top-cloud{
