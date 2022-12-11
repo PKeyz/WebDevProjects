@@ -41,6 +41,10 @@ div.top-container{
     background-color:#c8ede6;
 }
 
+div.middle-container{
+    margin-left: 50px;
+}
+
 img.top-cloud{
     display: inline-block;
     position: relative;
@@ -82,7 +86,12 @@ img.author-photo{
     display: inline-block;
     margin: 0 px;
     position: relative;
-    top: 20px;
-    left: 370px;
+    top: -40px;
+    left: -980px;
     width: 200px;
+    border-style: solid;
+    border-width:1px; 
+    border-color: black;
+    border-radius: 50%;
+    
 }
