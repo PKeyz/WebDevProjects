@@ -1,0 +1,110 @@
+*{
+
+}
+
+html{
+    font-size: 16px;
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+.header-background{
+    background-color:#EAF6F6;
+    height: 25rem;
+    width: 100%;
+}
+
+#mountain{
+    display:inline-block;
+    position: fixed;
+    top: 13rem;
+    left: 40%;
+    width: 20rem;
+}
+
+#cloud-one{
+    display: inline-block;
+    position: fixed;
+    top: 15rem;
+    left: 25%;
+    width: 5rem;
+}
+
+#cloud-two{
+    display: inline-block;
+    position: fixed;
+    top: 5rem;
+    left: 70%;
+    width: 7rem;
+}
+
+#cloud-three{
+    display: inline-block;
+    position: fixed;
+    top: 7rem;
+    left: 35%;
+    width: 3rem;
+}
+
+h1{
+    font: 3rem serif;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    margin: 0;
+    
+}
+
+.underline{
+    border-bottom: 1px solid #66BFBF;
+}
+
+.header-text{
+    display: inline-block;
+    position: fixed;
+    top: 6rem;
+    left: 45%;
+
+}
+
+.header-text p{
+    color: #66BFBF;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.main-container{
+    margin: auto;
+    width: 40%;
+}
+
+.info img{
+    display:inline-block;
+    position: fixed;
+    margin-top: 3rem;
+    left: 48%;
+    border-radius: 50%;
+    width: 10%;
+}
+
+h2{
+    display: inline;
+    position: fixed;
+    top: 37rem;
+    left: 50%;
+    font: 2rem serif;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    margin: 0;
+    align-items: center;
+    
+}
+
+.info p{
+    align-items: center
+    
+}
