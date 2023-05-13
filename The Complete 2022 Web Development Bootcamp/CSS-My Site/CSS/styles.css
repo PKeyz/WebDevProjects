@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    display: inline-block;
+    height: 45px;
+    width: 200px;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 200px;
+}
+
+h2{
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    font-weight: normal;
+    position: relative;
+    bottom:330px;
+    left: 200px;
+}
+
+h3.introduction{
+    margin: 0;
+    display: inline-block;
+    font-size: 200%;
+    height: 30px;
+    width: 150px;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    font-weight: bold;
+}
+
+h4{
+    margin: 0;
+    display: inline-block;
+    font-size: 200%;
+    height: 30px;
+    width: 150px;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+a{
+    color: #11999E;
+}
+
+div.top-container{
+    height: 500px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color:#c8ede6;
+}
+
+img.top-cloud{
+    display: inline-block;
+    position: relative;
+    left: 1650px;
+    top: 50px;
+}
+
+img.mid-cloud{
+    display: inline-block;
+    position: relative;
+    bottom: 250px;
+    left: 1050px;
+}
+
+img.bottom-cloud{
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+    left: 1430px;
+}
+
+img.mountain{
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    top: 50px;
+    left: 750px;
+}
+
+img.balloon{
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    bottom: 100px;
+    left: 90px;
+}
+
+img.author-photo{
+    display: inline-block;
+    margin: 0 px;
+    position: relative;
+    top: -40px;
+    left: -980px;
+    width: 200px;
+    border-style: solid;
+    border-width:1px; 
+    border-color: black;
+    border-radius: 50%;
+    
+}
+
+div.middle-container{
+    
+    text-align: center;
+}
+
+hr{
+    border-top: 10px dotted #EAF6F6;
+    max-width: 100px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+div.skills-coding{
+    
+}
+
+img.middle-container-images-computer{
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 50%;
+}
+img.middle-container-images-chillies{
+    display: inline-block;
+    position:absolute;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 50%;
+}

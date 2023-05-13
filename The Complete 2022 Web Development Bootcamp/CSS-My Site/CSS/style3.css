@@ -1,0 +1,145 @@
+*{
+
+}
+
+html{
+    font-size: 16px;
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+    font-family: 'Merriweather', serif;
+}
+
+.header-background{
+    background-color:#EAF6F6;
+    height: 25rem;
+    width: 100%;
+}
+
+#mountain{
+    display:inline-block;
+    position: relative;
+    top: 13rem;
+    left: 40%;
+    width: 20rem;
+}
+
+#cloud-one{
+    display: inline-block;
+    position: relative;
+    top: 15rem;
+    left: 25%;
+    width: 5rem;
+}
+
+#cloud-two{
+    display: inline-block;
+    position: relative;
+    top: 5rem;
+    left: 70%;
+    width: 7rem;
+}
+
+#cloud-three{
+    display: inline-block;
+    position: relative;
+    top: 7rem;
+    left: 35%;
+    width: 3rem;
+}
+
+h1{
+    font: 3rem serif;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #66BFBF;
+    margin: 0;
+    
+}
+
+.underline{
+    border-bottom: 1px solid #66BFBF;
+}
+
+.header-text{
+    display: inline-block;
+    position: relative;
+    top: 6rem;
+    left: 44%;
+
+}
+
+.header-text p{
+    color: #66BFBF;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.main-container{
+    margin: auto;
+    width: 45%;
+}
+
+.info{
+    margin: 0;
+    display: inline-block;
+}
+.info img{
+    position: relative;
+    margin-top: 2rem;
+    left: 48%;
+    border-radius: 50%;
+    width: 25%;
+}
+
+.info h2{
+    position: relative;
+    top: 1rem;
+    left: 54%;
+    font: 2rem serif;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #66BFBF;
+    margin: 0;
+    align-items: center;
+    
+}
+
+.info p{
+    align-items: center;
+    position: relative;
+    top: 2rem;
+    text-align: start;
+}
+
+.divider{
+    border-bottom: 2px dotted #4e6d6d;
+    position: relative;
+    top: 11rem;
+    left: 50%;
+    height: 0.5rem;
+    width: 4rem;
+
+}
+
+.skills{
+
+}
+
+.skills h2{
+    position: relative;
+    top: 48rem;
+    left: 48%;
+    font: 2rem serif;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #66BFBF;
+    margin: 0;
+    align-items: center;
+}
+].skills img{
+
+}
