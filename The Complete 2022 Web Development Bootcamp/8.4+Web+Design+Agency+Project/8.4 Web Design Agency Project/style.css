@@ -26,7 +26,7 @@ footer {
 .card{
   display: inline-block;
   border: 5px solid green;
-  width: 40%;
+  width: 35vw;
   height: 270px;
 
 }
@@ -58,11 +58,15 @@ footer {
   margin-left: 10px;
 }
 
-.card > P{
+.card > p{
   position: relative;
   width: 250px;
   top: -250px;
   left: 26rem;
   text-align: left;
   margin-left: 10px;
+}
+
+.card .tile-image .card-title .card-text{
+  position: absolute;
 }
