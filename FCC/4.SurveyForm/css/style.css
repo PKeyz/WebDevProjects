@@ -1,0 +1,96 @@
+/*
+-change fonts to something bigger
+-change font colors to more visible
+-change all buttons & selects & textarea to gradient position // opaque
+-
+*/
+
+
+body::before{
+    content: "";
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(115deg,rgba(0, 146, 73, 0.56),rgba(0, 51, 90, 0.56)),
+        url("../media/jonathan-simcoe-3zgrC1EiJQ4-unsplash.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body{
+    margin: 0;
+}
+
+#recommendation{
+    margin-bottom: 2%;
+}
+
+.long-input-line{
+    width: 100%;
+}
+
+label{
+    font-size:115%;
+}
+
+input{
+    margin-bottom: 0px;
+    border: 0;
+    min-width:fit-content;
+    font-size: 100%;
+    border-radius: 0.25rem;
+}
+
+
+#header{
+    margin-left: 2%;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+}
+#survey-form{
+    display: block;
+    background-color: rgba(0, 51, 90,0.9 );
+    border-radius: 5px;
+    border-style: solid;
+    border:0;
+    margin-left: 2%;
+    margin-right:auto;
+    width: 25%;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Mono', monospace;
+}
+
+textarea{
+    color:black;
+    font-size: 18px;
+    border-radius: 5px;
+    min-width: 90%;
+    width: fit-content;
+    opacity: 40%;
+}
+
+fieldset{
+    border: none;
+}
+
+#submit{
+    border:0;
+    margin-left:3%;
+    padding-top:7px;
+    padding-bottom: 7px;
+    width: 95%;
+    margin-bottom: 15px;
+    color:white;
+    background-color: #37AF65;
+}
+/*
+wie [berschreibt man jetzt die einzelnen fieldsets damit man dort wo man es 
+braucht ein display block einfügen kann?
+*/
+input.fieldset-block{
+    display: block;
+}

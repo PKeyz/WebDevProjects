@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registration Form</title>
+        <meta name="Registration Form" content="users can register here">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <h1>Registration Form</h1>
+       <p class="top-comment">Please fill out this form with the required information</p>
+
+       <form action="https://register-demo.freecodecamp.org" method="post">
+        <div class="container">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Enter Your First Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="FirstName" id="" class="input-text-label" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Enter Your Last Name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="LastName" id="" class="input-text-label" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Enter Your Email:</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" name="Email" id="" class="input-text-label" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="password">Create a New Password:</label>
+                </div>
+                <div class="col-75">
+                    <input type="password" name="Password" id="" class="input-text-label" required>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="accountSettingsAndConditions">
+                <input type="radio" id="personalAccount" name="accountType" value="PersonalAccount" class="radio">
+                <label for="PersonalAccount">Personal Account</label>
+                <br>
+                <input type="radio" id="businessAccount" name="accountType" value="BusinessAccount">
+                <label for="BusinessAccount">Business Account</label>
+                <br>
+                <input type="checkbox" name="terms" id="terms" value="TermsAndConditions" required>
+                <label for="terms">I accept the <u>terms and conditions</u></label>
+            </div>
+
+            <hr>
+
+            <div class="accountSettingsAndConditions">
+                <label for="profilePicture">Upload a profile picture:</label>
+                <br>
+                <input type="file" name="ProfilePicture" id="profilePicture" class="input-text-label" required>
+                <br>
+                <label for="age">Input your age (years):</label>
+                <br>
+                <input type="number" name="Age" id="" class="input-text-label" min="13" max="99" required>
+                <br>
+                <label for="hearAboutUs">How did you hear about us?:</label>
+                <br>
+                <select name="hearAboutUs" id="select" class="input-text-label" required>
+                        <option value="Select">(select one)</option>
+                        <option value="Friends">Friends</option>
+                        <option value="Business">Business</option>
+                        <option value="Online">Online</option>
+                        <option value="Other">Other</option>
+                </select>
+                <br>
+                <label for="bio">Provide a bio:</label>
+                <br>
+                <textarea name="bio" id="bio" cols="100" rows="3">I like coding on the beach...</textarea>
+            </div>
+
+            <input type="submit" name="submit" id="submit" value="Submit">
+       </div>
+       </form>
+       
+    </body>
+</html>
+
+<!-- 
+    
+    perfect the 1st input **first name + label** 
+then hr.
+last add remaining inputs&labels
+-done-
+
+next >>  radio button + checkbox 
+-done-
+
+to-do::
+
+/finish form on FCC and compare code mine vs their
+
+/find other forms and rewrite them (1 or 2)
+
+/then proceed with FCC course
+
+
+-->   
+-

@@ -1,0 +1,137 @@
+<!--
+    Tasks:
+    1.HEADER
+    2.y set correct sizes for picture
+    3.y correct size for h1
+    4.y how to link above p's to specific parts of the HTML like p HTML to container HTML etc. 
+    4.y header p{} need to be in one line . eventually change display in line or so
+    5.y regulate distances between img h1 and p's
+    6.y MAIN CONTAINER
+    7.y write out HTML
+    8.submit the form to :: https://freecodecamp.org/practice-project/accessibility-quiz :: when button "Send" is clicked
+    9. adjust the footer movability
+    10.finish CSS 
+    11.finish submit button
+-->
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FreeCodeCamp Quiz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="../css/styles.css">
+    </head>
+
+    <body>
+        <header class="header header-background header-display">
+            <a href="https://www.freecodecamp.org/learn" class=""><img src="../media/FFC-Button.png" alt="freecodecamp logo that works as a link to the official website "></a>
+            <h1>HTML/CSS Quiz</h1>
+            <nav class="page-links selector-flex">
+                <a href="#info">INFO</a>
+                <a href="#html">HTML</a>
+                <a href="#css">CSS</a>
+            </nav>
+
+        </header>
+        
+        <main>
+            <!--container for main form-->
+            <form class="main-container" action="https://freecodecamp.org/practice-project/accessibility-quiz" method="post">
+                <section id="info" role="region">
+                    <h2>Student Info</h2>
+                    <div class="divider"></div>
+                    <div id="info-input">
+                        
+                        <label for="info-name">Name:</label>
+                        <input type="text" id="info-name" required>
+                    
+                        <label for="info-mail">Mail:</label>
+                        <input type="email" id="info-mail" required>
+                    
+                        <label for="info-birth">D.O.B.:</label>
+                        <input type="date" name="" id="" required>
+            
+                    </section>
+                
+                </div>
+
+                <section id="html">
+                    <h2>HTML</h2>
+                    <div class="divider"></div>
+                    <div>
+                        <div class="html-question-one">
+                            <p class="html-sub-heading">Question #1</p>
+                            <p>The legend element represents a caption for the content of its parents fieldset element</p>
+
+                            <div id="radio-grid">
+                                <input type="radio" id="radioTrue" name="radioLegend">
+                                <label for="radioLegend">True</label>
+                                
+                                <input type="radio" id="radioLegend" name="radioLegend">
+                                <label for="radioLegend">False</label>
+                            </div>
+                        </div>
+                        <div class="html-question-two">
+                            <p class="html-sub-heading">Question #2</p>
+                            <p>A label element nesting an input element is required to have a for attribute with the same value as the input's id</p>
+                        
+                            <div id="radio-grid-two">
+                                <input type="radio" id="radioTrue" name="radioLabel">
+                                <label for="radioLegend">True</label>
+                                
+                                <input type="radio" id="radioLegend" name="radioLabel">
+                                <label for="radioLegend">False</label>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="css">
+                    <h2>CSS</h2>
+                    <div class="divider"></div>
+                    <div>
+                        <div id="css-drop-down">
+                            <label for="drop-down">Are you a frontend developer?</label>
+                            <br>
+                            <select name="drop-down" id="drop-down">
+                                <option value="">Select an option</option>
+                                <option value="">Yes</option>
+                                <option value="">No</option>
+                            </select>
+                        </div>
+
+                        <div id="css-textarea">
+                            <label for="css-text">Do you have any questions?</label> <br>
+                            <textarea placeholder="Who is flexbox..." id="css-text"></textarea>
+                        </div>
+                    
+
+                    </div>
+                </section>
+
+                <input type="submit" value="Send" id="submit-button">
+                
+        
+            </form>
+        </main>
+        
+        <footer class="footer footer-background footer-links">
+            <div class="footer-div">
+                <a href="https://www.freecodecamp.org/">freeCodeCamp</a>
+                <p>San Francisco</p>
+                <p>California</p>
+                <p>USA</p>
+            </div>
+        </footer>
+        <script src="" async defer></script>
+    </body>
+</html>
