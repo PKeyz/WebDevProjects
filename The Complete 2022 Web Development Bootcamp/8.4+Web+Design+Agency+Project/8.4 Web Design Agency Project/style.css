@@ -20,7 +20,7 @@ img.logo{
 }
 
 h1{
-  font-family: "Poppins", sans-serif;;
+  font-family: "Poppins", sans-serif;
   font-size: 5rem;
   line-height: 7rem;
   font-weight: 900;
@@ -32,6 +32,35 @@ h1{
 .creative{
   color: rgb(56, 56, 139);
 }
+/*
+.right.card{
+  padding-left: 5rem; 
+}
+*/
+.card img{
+  width: 25rem
+}
+
+.card .card-title{
+  display: inline-block;
+  position: absolute;
+  padding: 1.5rem 0 0 2rem;
+}
+
+.card p{
+  border:2px solid orange;
+  display:inline-block;
+  position: absolute;
+  width:18rem;
+  padding: 5rem 0 0 2rem;
+  font-family: "Poppings", sans-serif;
+  font-weight: 600;
+}
+
+.card{
+  width: 50rem;
+  border:2px solid green;
+}
 
 .left{
   float: left;
@@ -41,6 +70,8 @@ h1{
   float:right
 }
 
-.card{
-  
+footer p{
+  display: inline-block;
+  position: relative;
+  padding: 2rem 0 0 101rem;
 }
