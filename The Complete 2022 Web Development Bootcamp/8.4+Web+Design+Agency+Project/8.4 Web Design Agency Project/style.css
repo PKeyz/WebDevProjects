@@ -74,7 +74,7 @@ h1{
 footer p{
   float: right;
   border:2px solid blue;
-  display: inline-block;
+  /*display: inline-block;*/
   position: relative;
   padding: 11rem 0 0 0rem;
   font-family: "Poppings", sans-serif;
