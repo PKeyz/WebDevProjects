@@ -1,93 +1,83 @@
-html{
-  font-size: 16px;
-}
 
-body{
-  margin: 0;
-}
-
-.main-container{
-  display: flexbox;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  position: absolute;
-  border: 2px solid red;
-  margin:50px 50px 0px 50px;
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width:400px) and (orientation: portrait){
+  html{
+    font-size: 16px;
+  }
   
-}
-img.logo{
-  padding: 20px;
-  /*border: 2px solid brown;*/
-}
-
-h1{
-  font-family: "Poppins", sans-serif;
-  font-size: 5rem;
-  line-height: 7rem;
-  font-weight: 900;
-  padding-bottom: 50px;
-  border: 2px solid gold;
+  body{
+    margin:0;
+  }
   
-}
+  .main-container{
+    width: 482px;
+  }
 
-.creative{
-  color: rgb(56, 56, 139);
-}
-/*
-.right.card{
-  padding-left: 5rem; 
-}
-*/
-
-.card img{
-  width: 25rem
-}
-
-.card .card-title{
-  display: inline-block;
-  position: absolute;
-  padding: 1.5rem 0 0 2rem;
-}
-
-.card p{
-  border:2px solid orange;
-  display:inline-block;
-  position: absolute;
-  width:18rem;
-  padding: 5rem 0 0 2rem;
-  font-family: "Poppings", sans-serif;
-  font-weight: 500;
-}
-
-.card{
-  width: 50rem;
-  border:2px solid green;
-}
-
-.left{
-  float: left;
-}
-
-.right{
-  float:right
-}
-
-footer p{
-  float: right;
-  border:2px solid blue;
-  /*display: inline-block;*/
-  position: relative;
-  padding: 11rem 0 0 0rem;
-  font-family: "Poppings", sans-serif;
-  font-weight: 500;
+  img.logo{
+    padding: 20px 0 0 10px;
+    width: 10rem;
+  }
   
+  h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 900;
+    text-align: center;
+    word-spacing: 5px;
+    padding: 10px 10px 0px 25px;
+  }
+
+  .creative{
+    color: rgb(56, 56, 139);
+  }
+
+  .card{
+    width: 100%;
+    padding: 0;
+  }
+
+  .card img{
+    display: inline-block;
+    width: 28rem;
+    padding: 0 1rem 0rem 1rem;
+  }
+  
+  .card .card-title{
+    display: inline-block;
+    height: 0rem;
+    margin: 0;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .card p{
+    display:inline-block;
+    position: relative;
+    height: 70px;
+    width:92.5%;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 0.5rem 0 0 1rem;
+    font-family: "Poppings", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  footer p{
+    float: right;
+    position: relative;
+    top: -6rem;
+    padding: 6.5rem 0 0 0rem;
+    font-family: "Poppings", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    
+  }
+
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen 
-and (min-width: 320px )  
-and (max-width: 480px) {
+@media only screen and (min-width: 401px){
+ 
   html{
     font-size: 16px;
   }
@@ -97,78 +87,59 @@ and (max-width: 480px) {
   }
   
   .main-container{
+    width:98%;
     display: flexbox;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     position: absolute;
-    border: 2px solid red;
-    margin:50px 50px 0px 50px;
+    margin:15px 15px 0px 15px;
     
   }
   img.logo{
-    padding: 20px;
-    width: 20%;
-    /*border: 2px solid brown;*/
+    padding: 1.5rem 0 0 4rem;
+    width: 10rem;
+  
   }
   
   h1{
     font-family: "Poppins", sans-serif;
-    font-size: 7rem;
-    text-align: center;
-    line-height: 7rem;
+    font-size: 4rem;
+    line-height: 5rem;
     font-weight: 900;
-    padding-bottom: 50px;
-    border: 2px solid gold;
+    padding: 2rem 0 0 4rem;
     
   }
-
-  .card{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 50rem;
-    height: 50rem;
-    border:2px solid green;
+  
+  .creative{
+    color: rgb(56, 56, 139);
   }
-
+  
   .card img{
+    width: 25rem
+  }
+  
+  .card .card-title{
+    display: inline-block;
+    position: absolute;
+    padding: 0.75rem 0 0 3rem;
+  }
+  
+  .card p{
+    display:inline-block;
+    position: absolute;
+    top: 24rem;
+    width:9rem;
+    margin: 2.2rem 0 0 2rem;
+    padding: 0rem 0 0 1rem;
+    font-family: "Poppings", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .card{
     width: 50rem;
-    height:30rem;
-  }
-/* 1st: target the card-title correctly
-2nd: adjust size and positioning
-3rd: copy adjust for right card */
-  .left .card.card-title{
-    display: block;
-    position: absolute;
-    top: 1rem;
-    padding: 1.5rem 0 0 2rem;
-  }
-  
-  .left.card p{
-    border:2px solid orange;
-    display:inline-block;
-    position: absolute;
-    top: 77rem;
-    width:35rem;
-    padding: 5rem 0 0 2rem;
-    font-family: "Poppings", sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
-  }
-  
-  .right.card p{
-    border:2px solid orange;
-    display:inline-block;
-    position: absolute;
-    top: 125rem;
-    width:35rem;
-    padding: 5rem 0 0 2rem;
-    font-family: "Poppings", sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
+    padding-left: 4rem;
   }
   
   .left{
@@ -181,22 +152,44 @@ and (max-width: 480px) {
   
   footer p{
     float: right;
-    border:2px solid blue;
-    /*display: inline-block;*/
     position: relative;
-    padding: 11rem 0 0 0rem;
+    top: 18rem;
+    left: -12rem;
+    padding: 6.5rem 0 0 0rem;
     font-family: "Poppings", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+
+
+/* default styles here for older browsers. 
+       I tend to go for a 600px - 960px width max but using percentages
+    
+    @media only screen and (min-width: 960px) {
+      styles for browsers larger than 960px; 
+  }
+  @media only screen and (min-width: 1440px) {
+       styles for browsers larger than 1440px; 
+  }
+  @media only screen and (min-width: 2000px) {
+       for sumo sized (mac) screens 
+  }
+  @media only screen and (max-device-width: 480px) {
+      styles for mobile browsers smaller than 480px; (iPhone) 
+  }
+  @media only screen and (device-width: 768px) {
+     default iPad screens
+  }
+  different techniques for iPad screening 
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    For portrait layouts only 
+  }
+
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+     For landscape layouts only 
+  }
+*/
