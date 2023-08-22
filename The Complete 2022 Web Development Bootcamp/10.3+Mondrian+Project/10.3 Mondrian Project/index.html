@@ -19,11 +19,88 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+    body {
+      margin: 5px;
+    }
+
+    .grid-container {
+      display: grid;
+      height: 748px;
+      width: 748px;
+      gap: 9px 9px;
+      grid-template-rows: 414px 132px 155px 20px;
+      grid-template-columns: 320px 198px 153px 50px;
+      background-color: #000000;
+    }
+
+    .grid-item-0 {
+      grid-area: 1/1/2/2;
+      background-color: #E72F24;
+    }
+    
+    .grid-item-1 {
+      grid-area: 1/2/2/5;
+      background-color: #F0F1EC;
+    }
+    
+    .grid-item-2 {
+      grid-area: 2/1/4/2;
+      background-color: #F0F1EC;
+    }
+
+    .grid-item-3 {
+      grid-area: 4/1/5/2;
+      background-color: #F0F1EC;
+    }
+    
+    .grid-item-4 {
+      grid-area: 2/2/4/4;
+      background-color: #F0F1EC;
+    }
+
+    .grid-item-5 {
+      grid-area: 2/4/3/5;
+      background-color: #004592;
+      margin-bottom: 10px;
+    }
+
+    .grid-item-6 {
+      grid-area: 3/4/5/5;
+      background-color: #F0F1EC;
+    }
+
+    .grid-item-7 {
+      grid-area: 3/4/4/5;
+      background-color: #F0F1EC;
+    }
+
+    .grid-item-8 {
+      grid-area: 4/2/5/3;
+      background-color: #F9D01E;
+    }
+
+    .grid-item-9 {
+      grid-area: 4/3/5/4;
+      background-color: #232629;
+    }
+
   </style>
 </head>
 
 <body>
   <!-- Write your HTML here -->
+  <div class="grid-container">
+    <div class="grid-item-0"></div>
+    <div class="grid-item-1"></div>
+    <div class="grid-item-2"></div>
+    <div class="grid-item-3"></div>
+    <div class="grid-item-4"></div>
+    <div class="grid-item-5"></div>
+    <div class="grid-item-6"></div>
+    <div class="grid-item-7"></div>
+    <div class="grid-item-8"></div>
+    <div class="grid-item-9"></div>
+  </div>
 </body>
 
 </html>
