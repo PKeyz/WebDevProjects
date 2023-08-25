@@ -1,16 +1,9 @@
+body {
+    margin: 0 0 10px 0 ;
+}
 .feature-icon {
     width: 4rem;
     height: 4rem;
     border-radius: .75rem;
 }
   
-#myCarousel {
-    height: 850px;
-    width: 70%;
-    margin-left: 15%;
-}
-
-.carousel-item {
-    height: 850px; 
-}
-
