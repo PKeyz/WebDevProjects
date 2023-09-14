@@ -16,6 +16,17 @@
   }
 }
 
+.row {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        height: 75vh;
+        width: 100vw;
+}
+
+
+
 .icon-square {
   width: 3rem;
   height: 3rem;
