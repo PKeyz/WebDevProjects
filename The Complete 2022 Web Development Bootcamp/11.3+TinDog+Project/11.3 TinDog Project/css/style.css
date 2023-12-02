@@ -29,3 +29,7 @@ body {
   border: none!important;
 }
 .black {color:#000000!important;}
+
+.hover-grey:hover{
+  background-color: rgb(189, 186, 186)!important;
+}
