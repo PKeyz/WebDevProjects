@@ -33,3 +33,8 @@ body {
 .hover-grey:hover{
   background-color: rgb(189, 186, 186)!important;
 }
+
+.float-left{
+  float:left;
+}
+
